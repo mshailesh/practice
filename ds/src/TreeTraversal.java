@@ -5,9 +5,10 @@ import java.util.List;
  * Created by soham on 10/29/2017.
  */
 public class TreeTraversal {
-    LinkedList<Node> stack = new LinkedList<>();
+
 
     private void preOrderTraversal(Node root){
+        LinkedList<Node> stack = new LinkedList<>();
         // iterative approach
         System.out.println(root);
         stack.addFirst(root);
@@ -38,8 +39,27 @@ public class TreeTraversal {
         }
     }
 
+    private void inorderTraversal(Node root){
+        LinkedList<Node> stack = new LinkedList<>();
+        Node current = root;
+        while(current!=null || !stack.isEmpty()){
+            if(current!=null){
+                if(current.left != null){
+                   stack.addFirst(current);;
+                   current = current.left;
+                }else{
+                    System.out.println(current.item);
+                    current = current.right;
+                }
+            }else{
+                Node temp = stack.removeFirst();
+                System.out.println(temp.item);
+                current = temp.right;
+            }
+        }
 
 
+    }
 
     public static void main(String[] args) {
         System.out.println("Test");
@@ -48,11 +68,11 @@ public class TreeTraversal {
         root.left = new Node(1);
         root.right = new Node(3);
         root.left.left = new Node(4);
-        root.left.right = new Node(2);
+        root.left.right = new Node(6);
         root.right.left = new Node(1);
 
         TreeTraversal tree = new TreeTraversal();
-        tree.preOrderTraversal1(root);
+        tree.inorderTraversal(root);
 
 
     }
