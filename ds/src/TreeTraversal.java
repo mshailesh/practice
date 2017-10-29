@@ -8,6 +8,7 @@ public class TreeTraversal {
     LinkedList<Node> stack = new LinkedList<>();
 
     private void preOrderTraversal(Node root){
+        // iterative approach
         System.out.println(root);
         stack.addFirst(root);
 
@@ -23,6 +24,23 @@ public class TreeTraversal {
         }
     }
 
+    private void preOrderTraversal1(Node root){
+        // recurssive approach
+        System.out.println(root.item);
+        if (root.left != null){
+            preOrderTraversal1(root.left);
+
+        }
+
+        if (root.right != null){
+            preOrderTraversal1(root.right);
+
+        }
+    }
+
+
+
+
     public static void main(String[] args) {
         System.out.println("Test");
 
@@ -34,7 +52,7 @@ public class TreeTraversal {
         root.right.left = new Node(1);
 
         TreeTraversal tree = new TreeTraversal();
-        tree.preOrderTraversal(root);
+        tree.preOrderTraversal1(root);
 
 
     }
