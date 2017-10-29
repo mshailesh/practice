@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930dfd8d-0b54-4ac1-9b05-9e8378fbec5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds/ds.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hackerearth/src/ConsoleReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hackerearth/src/TrailingZeros.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/src/main/java/org/spring/boot/jbpm/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/src/main/java/org/spring/jbpm/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/src/main/java/org/spring/jbpm/SpringSecurityIdentityProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/src/main/main1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/src/test/java/org/spring/jbpm/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/src/test/test1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/classes/META-INF/maven/org.btci/jbpm-spring/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/classes/META-INF/maven/org.btci/jbpm-spring/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/classes/org/spring/boot/jbpm/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/classes/org/spring/jbpm/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/classes/org/spring/jbpm/SpringSecurityIdentityProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jbpm-spring/target/test-classes/org/spring/jbpm/AppTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -33,7 +15,9 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored mask="*.iml" />
-    <ignored path=".idea/" />
+    <manually-removed-from-ignored>
+      <directory path=".idea/" />
+    </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -551,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509265175298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="intial">
+      <created>1509265270206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509265270206</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
