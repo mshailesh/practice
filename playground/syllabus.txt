@@ -1,0 +1,3 @@
+Hexagonal Architecture
+Angular and State Management
+Java Threads - Book 2
